@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Feed My Baby!</string>
+    <string name="title_section1">수유 정보 입력</string>
+    <string name="title_section2">그래프 보기</string>
+    <string name="title_section3">아기 정보 입력</string>
+    <string name="title_section9">프로그래머에게 기저귀 한장?</string>
+    <string name="navigation_drawer_open">내비게이션 서랍 열기</string>
+    <string name="navigation_drawer_close">내비게이션 서랍 닫기</string>
+    <string name="action_example">예제 동작</string>
+    <string name="action_settings">설정</string>
+    <string name="btn_add_baby">아기정보 추가</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_baby_name">아기 이름</string>
+    <string name="hint_baby_name">이름이나 별명을 입력하세요</string>
+    <string name="text_birth_date">생년월일</string>
+    <string name="btn_add">추가</string>
+    <string name="btn_delete">삭제</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_save">저장</string>
+    <string name="title_activity_new_baby">아기정보 추가</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="toast_save_success">성공적으로 저장했습니다.</string>
+    <string name="title_edit_baby">아기정보 수정</string>
+    <string name="btn_add_feed_info">수유정보 추가</string>
+    <string name="title_activity_new_feed">새 수유정보</string>
+    <string name="text_quantity">용량</string>
+    <string name="text_etc">비고</string>
+    <string name="text_feed_date">수유일자</string>
+    <string name="text_total_quantity">오늘 아기가 먹은 양 : </string>
+    <string name="toast_baby_info_input">아기정보를 먼저 입력하세요.</string>
+    <string name="text_feed_list_empty">수유정보를 입력하세요.</string>
+    <string name="text_baby_list_empty">아기정보를 입력하세요.</string>
+    <string name="text_donate">이 어플을 사용해 주셔서 감사합니다. 여러분의 기저귀 한장 기부가 저에게 큰 도움이 됩니다. 감사합니다!</string>
+    <string name="btn_donate">페이팔을 통해 기부하기</string>
+    <string name="text_average">평균 수유량 : </string>
+    <string name="title_edit_feed_info">수유정보 수정</string>
+    <string name="text_graph_feeding">수유 그래프</string>
+    <string name="action_export">엑셀 파일(csv)로 추출</string>
+    <string name="action_send_email">엑셀 파일로 이메일 보내기</string>
+</resources>

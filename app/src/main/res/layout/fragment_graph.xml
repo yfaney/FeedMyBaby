@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yfaney.feedmybaby.GraphFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/layout_avg"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:text="@string/text_average"
+            android:id="@+id/textAverageLabel"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/textAverageValue"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/graphLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dip"
+        android:layout_below="@+id/layout_avg"
+        >
+    </RelativeLayout>
+    <!-- CPC -->
+    <com.fsn.cauly.CaulyAdView
+        xmlns:app="http://schemas.android.com/apk/res/com.yfaney.feedmybaby"
+        android:id="@+id/xmladview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:appcode="FqvPFYFl" app:effect="RightSlide"
+        app:gps="on"
+        app:allowcall="false"
+        app:dynamicReloadInterval="true"
+        app:reloadInterval="20"
+        app:bannerHeight="Fixed"/>
+</RelativeLayout>
